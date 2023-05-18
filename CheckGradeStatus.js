@@ -41,7 +41,6 @@ function onFormSubmit(e) {
           message += headers[j] + ', ';
         }
       }
-      // Break out of the loop since we've found the student's data.
       break;
     }
   }
