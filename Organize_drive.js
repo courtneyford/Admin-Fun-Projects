@@ -1,10 +1,14 @@
-/*
-  This script is designed to automate the process of organizing your Google Drive.
-  The script is triggered whenever a student submits a Google Form.
-  It uses the student's email from the form to find their submission data in a Google Sheet.
-  It then constructs a message listing the practicals the student has submitted,
-  and writes this message to another sheet called 'Check_Status'.
-  Finally, it sends an email to the student with the message.
+/* 
+This script showcases the use of Google Apps Script, JavaScript, and Google Workspace integration.
+  
+  It creates four folders - "Documents", "Spreadsheets", "Presentations", and "Others" - and moves files into 
+  the appropriate folder depending on whether they are Google Docs, Google Sheets, Google Slides, or other file types.
+  
+  To run this script:
+  1. Paste the code into the Google Apps Script editor.
+  2. Save the script.
+  3. Select the "organizeDrive" function from the dropdown menu.
+  4. Click the play button to run the function.
 */
 
 function organizeDrive() {
