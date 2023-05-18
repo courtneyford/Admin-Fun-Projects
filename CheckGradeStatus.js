@@ -1,4 +1,6 @@
 /*
+This script showcases the use of Google Apps Script, JavaScript, and Google Workspace integration.
+
   This script is designed to automate the process of students checking whether or not they have submitted an assignment.
   The script is triggered whenever a student submits a Google Form (with the only requirement of inputting the student's email).
   It then constructs a message listing the assignments the student has submitted,
